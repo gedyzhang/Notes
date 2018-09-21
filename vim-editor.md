@@ -14,4 +14,4 @@ $ vim 文件名
 - dd 删除当前行，并将删除的内容保存到剪贴板里
 - p 粘贴剪贴板的内容
 
-####[vim入门攻略]（http://coolshell.cn/articles/5426.html）
+#### [vim入门攻略]（http://coolshell.cn/articles/5426.html）
