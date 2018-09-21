@@ -1,9 +1,9 @@
 
-####Introduction
-###学习flask过程中练习的小例子
+#### Introduction
+### 学习flask过程中练习的小例子
 功能：注册、登陆、更改密码
 
-####服务器端：
+#### 服务器端：
 <pre><code>  
 from flask import Flask,request,render_template,Response,abort,url_for,redirect
 import time
@@ -122,14 +122,14 @@ if __name__ == '__main__' :
                                       
 </code></pre>
 
-####客户端：
+#### 客户端：
 <pre><code>http get localhost:12580/ </code></pre>
 向服务器发送get请求，get可以省略
 <pre><code>http post localhost:12580/register username=zhang password=123 -v --session zzz</code></pre>
 端口号被设置为12580，post方法提交数据给服务器，-v表示显示详细信息，--session zzz 表示操作在名字为zzz的session中
 <pre><code>http --help </code></pre>
 可以查看关于httpie的文档
-####Reference
+#### Reference
 flask中文文档(http://docs.jinkan.org/docs/flask/index.html)
 
 
